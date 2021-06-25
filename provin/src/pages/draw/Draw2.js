@@ -17,7 +17,7 @@ function Draw2() {
   const draw3 = () => {
     history.push("/draw3");
   };
-  const heightResponsive = window.innerHeight < 45 ? 450 : 350;
+  const heightResponsive = window.innerHeight < 45 ? 450 : 386  ;
 
   const clear = () => {
     lienzo.current.clear();
@@ -76,7 +76,7 @@ function Draw2() {
                   brushColor={canvas}
                   brushRadius={brush}
                   canvasHeight={heightResponsive}
-                  canvasWidth={"100%"}
+                  canvasWidth={"65%"}
                   imgSrc="../../images/circulo2.jpg"
                   hideGrid={false}
                   style={{ border: "2px solid #14181C" }}
@@ -92,7 +92,7 @@ function Draw2() {
                   brushColor={canvas}
                   brushRadius={brush}
                   canvasHeight={heightResponsive}
-                  canvasWidth={"100%"}
+                  canvasWidth={"65%"}
                   imgSrc="../../images/circulo3.jpg"
                   hideGrid={false}
                   style={{ border: "2px solid #14181C" }}
