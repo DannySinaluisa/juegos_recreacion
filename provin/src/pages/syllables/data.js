@@ -50,7 +50,7 @@ export default {
         img: "../../../images/syllabesIma/niño.jpg",
       },
       {
-        title: "chango",
+        title: "mono",
         category: "Bisílabas",
         img: "../../../images/syllabesIma/chango.jpg",
       },
